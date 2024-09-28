@@ -12,16 +12,49 @@
             max-width: 650px;
             line-height: 1.6;
             font-size: 18px;
-            color: #444;
+            color: #e0e0e0;
             padding: 0 10px;
-            background-color: #EEEEEE
+            background-color: #1a1a1a;
+            font-family: "sfPro";
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
     
-        h1,
+        h1 { line-height: 1.2;
+            text-align: center;
+        }
         h2,
         h3 {
-            line-height: 1.2
+            line-height: 1.2;
+
         }
+    
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        @font-face {
+            font-family: sfPro;
+            src: url(SF-Pro.ttf);
+        }
+        footer{
+            text-align: center;
+            padding: 0px;
+            margin-top: auto;
+            background-color: #1a1a1a;
+        }
+        .container {
+            text-align: center;
+            padding: 10px;
+        }
+        
    </style>
 </head>
 
@@ -39,18 +72,52 @@
 
     <div class="container">
         <h1>Hi, I'm Ismail!</h1>
-	<p>Welcome to my portfolio! </p>
+        <p>Welcome to my portfolio!</p>
     </div>
-    <div class"something">
-	<h1> 
-I am an undergraduate student at DePaul University majoring in Computer Science
-	</h1>
-	    <div>
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+            I am an undergraduate student at DePaul University majoring in Computer Science with a concentration in Software Development.
+        </p>
+    </div>
+
+<div class = "WorkExp">
+    <h2>Work Expirience </h2>
+            <div>
+            <h3>DePaul University: KeYmaera X</h3>
+            <li>Research Assistant</li>
+            <p>I worked on </p>
+            </div>
+
+            <div>
+            <li>Research Assistant</li>
+            </div>
+        
+        <div>
+            <li>Grader</li>
+        </div>
+        
+        <div>
+            <li>Software Engineer Intern</li>
+        </div>
+
+</div>
+    
+
+    <div class="Projects">
+        <h2>Projects</h2>
+        <h3>Project 1</h3>
+        <p>Project 1 Description</p>
+        <h3>Project 2</h3>
+        <p>Project 2 Description</p>
+        <h3>Project 3</h3>
+        <p>Project 3 Description</p>
 
     <footer>
         <p>&copy; 2024 Ismail Patel</p>
     </footer>
 
-</body>
+    </body>
 
 </html>
