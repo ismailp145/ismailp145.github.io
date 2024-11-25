@@ -6,6 +6,9 @@
         <title>Ismail - Portfolio</title>
 
         <style type="text/css">
+            * {
+                line-height: calc(1em + 0.5rem);
+            }
             body {
                 padding-top: 0;
                 margin: 40px auto;
@@ -20,24 +23,16 @@
                 flex-direction: column;
                 min-height: 100vh;
             }
-
-            h1 {
-                line-height: 1.2;
-                text-align: center;
-            }
+            h1,
             h2 {
-                line-height: 1.2;
                 text-align: center;
-            }
-            h3 {
-                line-height: 1.2;
             }
 
             nav {
                 position: fixed;
                 top: 0;
                 left: 0;
-                width: 100%; /* Add this line */
+                width: 100%; /** Add this line */
                 text-align: center;
                 padding: 10px;
                 background-color: #1a1a1a;
@@ -107,10 +102,16 @@
         <div class="WorkExp" id="WorkExp">
             <h2>Work Experience</h2>
             <div>
+                <h3>Arif Trucking Inc.</h3>
+                <h4>Software Engineer Intern</h4>
+                <p>
+                    Developed a web application to allow users to book and
+                    manage their trucks, utilizing React, Node, and Express.
+                </p>
+            </div>
+            <div>
                 <h3>DePaul University: KeYmaera X</h3>
-                <ul>
-                    <li>Software Engineer Research Assistant</li>
-                </ul>
+                <h4>Software Engineer Research Assistant</h4>
                 <p>
                     Currently and engineering a Scala program to recursively
                     process a Z3 proof using the open source SMT-LIB format and
@@ -120,9 +121,7 @@
 
             <div>
                 <h3>Your Missing Semester</h3>
-                <ul>
-                    <li>Software Engineer Fellow</li>
-                </ul>
+                <h4>Software Engineer Fellow</h4>
                 <p>
                     Collaborated with a remote team of 5 utilizing best
                     practices such as git and agile planning methodologies to
@@ -132,9 +131,7 @@
             </div>
             <div>
                 <h3>DePaul University: The ASL Avatar Project</h3>
-                <ul>
-                    <li>Software Engineer Research Assistant</li>
-                </ul>
+                <h4>Software Engineer Research Assistant</h4>
                 <p>
                     Conducted a research survey of low code platforms to
                     identify the most compatible option for an online quiz
@@ -144,9 +141,7 @@
             </div>
             <div>
                 <h3>DePaul University: College of Computing</h3>
-                <ul>
-                    <li>Grader</li>
-                </ul>
+                <h4>Grader</h4>
                 <p>
                     Developing a Python script to autograde assignments,
                     outputting correctness to a CSV file and use web scraping
@@ -156,9 +151,7 @@
             </div>
             <div>
                 <h3>Chicago Coalition For the Homeless</h3>
-                <ul>
-                    <li>Software Engineer Intern</li>
-                </ul>
+                <h4>Software Engineer Intern</h4>
                 <p>
                     Utilized data from the Chicago Data Portal to convert a
                     dataset of 60,000+ addresses into spatial data using ArcGIS
@@ -176,7 +169,6 @@
                 I am currently working on an app for users to be able to
                 purchase securites.
             </p>
-
             <h3>AutoGrader</h3>
             <p>
                 Working on an applicaiton to autograde user assignments,
@@ -188,7 +180,7 @@
         <h2>Contact</h2>
 
         <div class="contact-links">
-            <a href="https://www.linkedin.com/in/ismail-p-/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/ismail-patelmp/">LinkedIn</a>
             <a href="https://github.com/ismailp145">GitHub</a>
         </div>
 
