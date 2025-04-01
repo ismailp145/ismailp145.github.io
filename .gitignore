@@ -4,4 +4,6 @@ package-lock.json
 package.json
 .vscode
 .DS_Store
+/.DS_STORE
+.DS_STORE
 
